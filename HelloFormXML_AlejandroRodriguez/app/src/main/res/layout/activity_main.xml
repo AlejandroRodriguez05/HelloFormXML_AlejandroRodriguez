@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="Escribe tu nombre"
+        android:inputType="text"
+        android:maxLength="20"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="0 / 20"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Saludar"
+        tools:text="Saludar" />
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text=" "
+        android:textSize="16sp" />
+
+</LinearLayout>
